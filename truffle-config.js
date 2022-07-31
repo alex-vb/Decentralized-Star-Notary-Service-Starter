@@ -23,8 +23,7 @@
  */
 
 const HDWalletProvider = require('truffle-hdwallet-provider');
-const mnemonic = "assume tonight around aisle student sustain crouch between gauge term february mobile";
-const infuraKey = "b06e92e16a854e95aeba076d2a5b3393";
+const mnemonic = "{Ganache Mnemonic}";
 
 module.exports = {
   /**
@@ -51,7 +50,7 @@ module.exports = {
     },
     rinkeby: {
       provider: function() { 
-       return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/b06e92e16a854e95aeba076d2a5b3393");
+       return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/{your-keyid}");
       },
       network_id: 4,
       gas: 4500000,
