@@ -1,6 +1,6 @@
 # Decentralized-Star-Notary-Service-Starter
 
-    * Truffle version
+  
     * Truffle version                        :Truffle v5.5.18 (core: 5.5.18)
                                              Ganache v7.2.0
                                              Solidity - 0.8.1 (solc-js)
